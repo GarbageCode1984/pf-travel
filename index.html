@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRAVELOCITY</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/basic.css">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://kit.fontawesome.com/2d1ef9076d.js" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      document.getElementById('toggle').addEventListener("click", function() {
+        if(document.querySelector('body').classList.contains('dark-mode')){
+      document.body.classList.remove("dark-mode");
+      } else{
+      document.body.classList.add("dark-mode");
+      }
+      },false);
+    })
+  </script>
+</head>
+<body>
+  <header>
+    <div class="header_top">
+      <p class="top_logo">
+        <a href="#">TRAVELOCITY</a>
+      </p>
+      <nav class="top_menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Trips</a></li>
+          <li><a href="#">Sign in</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header_title">
+      <h1>TRAVELOCITY</h1>
+      <p>
+        No matter who you are, or where you are going, our travel brands help every type of traveler not only find the trip<br>that’s right for them, but get the best value every time.
+      </p>
+    </div>
+  </header> 
+
+  <nav class="gnb">
+    <div>
+      <ul>
+        <li><a href="#">Stays</a></li>
+        <li><a href="#">Flights</a></li>
+        <li><a href="#">Cars</a></li>
+        <li class="active"><a href="#">Packages</a></li>
+        <li><a href="#">Things to do</a></li>
+        <li><a href="#">Cruises</a></li>
+        <li><a href="#">Vacation packages</a></li>        
+        <li><a href="#">OffersFeatured</a></li>
+      </ul>
+    </div>
+  </nav> 
+
+  <div class="content">
+    <section class="s1">
+      <div>
+        <img src="img/s1_1.jpg" alt="">
+        <p class="s1_txt">
+          <strong>Lorem Ipsum</strong><br>
+          <span>dolor sit amet, consecteture</span>
+        </p>
+      </div>
+      <div>
+        <img src="img/s1_2.jpg" alt="">
+        <p class="s1_txt">
+          <strong>Lorem Ipsum</strong><br>
+          <span>dolor sit amet, consecteture</span>
+        </p>
+      </div>
+      <div>
+        <img src="img/s1_3.jpg" alt="">
+        <p class="s1_txt">
+          <strong>Lorem Ipsum</strong><br>
+          <span>dolor sit amet, consecteture</span>
+        </p>
+      </div>
+      <div>
+        <img src="img/s1_4.jpg" alt="">
+        <p class="s1_txt">
+          <strong>Lorem Ipsum</strong><br>
+          <span>dolor sit amet, consecteture</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="s2">
+      <div>
+        <ul class="s2_icons">
+          <li>
+            <a href="#">
+              <img src="img/icon_1.png" alt="아이콘1">
+              <p>Flights</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icon_2.png" alt="아이콘2">
+              <p>Ballons</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icon_3.png" alt="아이콘3">
+              <p>Map</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icon_4.png" alt="아이콘4">
+              <p>Beach</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icon_5.png" alt="아이콘5">
+              <p>Snorkel</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icon_6.png" alt="아이콘6">
+              <p>Photo</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="s3">
+      <div class="s3_title">
+        <p>Think of nothing beyond having a great time with your family</p>
+        <h3>Book with flexibility</h3>
+      </div>
+      <div class="s3_cont">
+        <div>
+          <img src="img/s3_1.jpg" alt="s3-이미지"> 
+        </div>
+        <div>
+          <img src="img/s3_2.jpg" alt="s3-이미지">
+          <img src="img/s3_3.jpg" alt="s3-이미지">
+        </div>
+        <div>
+          <h4>You deserve a break</h4>
+          <small>Conference calls, to-do lists and, of course, soccer practice.</small>
+          <p>Busy lives and packed schedules call for trips that are headache free. Our goal is to provide stress-free travel every time you and your family book with us so that you can spend less time worrying and more time building memories. To that end, we’ll help you find and build your perfect trip...</p>
+          <a href="#" class="more">And More &gt;</a>
+          <div class="sns">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s4">
+      <h3>Book with flexibility</h3>
+      <ul class="icons">
+        <li>
+          <a href="#"><img src="img/thum1.jpg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/thum2.jpg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/thum3.jpg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/thum4.jpg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/thum5.jpg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/thum6.jpg" alt=""></a>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <footer>
+      <div class="footer_in">
+        <h4>Expedia Group</h4>
+        <p>
+        &copy; 20222022202220222022202220222022
+        2022202220222022202220222022202220222022
+        <span class="address">
+          @ abcdfsafafsafsfsafsafasfsafsfsafsafafafabcdfsafafsafsfsafsafasfsafsfsafsafafaf
+          vabcdfsafafsafsfsafsafasfsafsfsafsafafafabcdfsafafsafsfsafsafasfsafsfsafsafafaf
+        </span>
+        </p>
+      </div>
+  </footer>
+  <button id="toggle">클릭!</button>
+</body>
+</html>
